@@ -24,13 +24,20 @@ def initialize_gemini():
 def search_searxng(query, method='GET'):
     # Example stubbed search result to simulate actual web search
     result = (
-        "ECCO was established in 1963 by Karl Toosbuy in the small town of Bredebro "
-        "in southern Denmark. Throughout the 1980s, the company expanded its operations "
-        "internationally. By 1982, sales reached 1 million pairs of shoes annually. "
-        "To meet demand, ECCO added production in Portugal, Japan, and Cyprus. "
-        "ECCO built its R&D center 'Futura' in 1996, with Portugal becoming its main R&D hub by 2009. "
-        "They opened a beamhouse in Indonesia and tannery in Thailand. In 1998, ECCO launched its "
-        "first flagship retail store on Oxford Street, London. By 2000, ECCO controlled all production stages."
+        "ECCO was established in 1963 by Karl Toosbuy"
+        " in the small town of Bredebro "
+        "in southern Denmark. Throughout the 1980s, "
+        "the company expanded its operations "
+        "internationally. By 1982, sales reached"
+        " 1 million pairs of shoes annually. "
+        "To meet demand, ECCO added production"
+        " in Portugal, Japan, and Cyprus. "
+        "ECCO built its R&D center 'Futura' in 1996, "
+        "with Portugal becoming its main R&D hub by 2009. "
+        "They opened a beamhouse in Indonesia and tannery"
+        " in Thailand. In 1998, ECCO launched its "
+        "first flagship retail store on Oxford Street, London. "
+        "By 2000, ECCO controlled all production stages."
     )
     return result
 
