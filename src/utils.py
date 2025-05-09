@@ -72,7 +72,8 @@ def generate_creative_brief(user_input: UserInput) -> dict:
         model = initialize_gemini()
 
         search_query = (
-            f"{user_input.brand_name} {user_input.product_name} marketing campaign"
+            f"{user_input.brand_name} "
+            f"{user_input.product_name} marketing campaign"
         )
         search_results = websearch(search_query)
 
