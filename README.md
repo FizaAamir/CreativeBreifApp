@@ -14,27 +14,6 @@ This project automates the creation of structured, marketing-grade creative brie
 
 ---
 
-## 📁 Project Structure
-Project/
-│
-├── app.py # Entry point
-├── requirements.txt # Python dependencies
-├── docker-compose.yml # Local SearXNG service
-├── .env # API key and config
-│
-├── Configs/
-│ ├── config.yaml # Model & search config
-│ └── prompts.py # Gemini prompt template
-│
-├── src/
-│ ├── init.py
-│ ├── models.py # Pydantic models
-│ ├── utils.py # Web search + generation logic
-│ └── constants.py # Sample user input
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone & Install
