@@ -15,7 +15,8 @@ user_input_data = {
             "Description": "",
             "Persona Name": "Emma Jones",
             "Persona Picture": (
-                "https://images.pexels.com/photos/3411134/pexels-photo-3411134.jpeg"
+                "https://images.pexels.com/photos/3411134/"
+                "pexels-photo-3411134.jpeg"
                 "?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
             )
         },
@@ -65,11 +66,13 @@ user_input_data = {
     "brand_guidelines": {
         "do": [
             (
-                "Content should resonate with our target audience, keep tone friendly, "
+                "Content should resonate with our target"
+                "audience, keep tone friendly, "
                 "informative, and authentic."
             ),
             (
-                "Include key brand messages, values, and approved phrases. Maintain a "
+                "Include key brand messages, values, "
+                "and approved phrases. Maintain a "
                 "consistent brand voice."
             ),
             (
@@ -87,23 +90,28 @@ user_input_data = {
         ],
         "dont": [
             (
-                "Refrain from mentioning controversial or potentially divisive topics "
+                "Refrain from mentioning controversial "
+                "or potentially divisive topics "
                 "(e.g., politics, religion)."
             ),
             (
-                "Do not use slang, profanity, or edgy humor that could misrepresent the brand."
+                "Do not use slang, profanity, or edgy humor"
+                " that could misrepresent the brand."
             ),
             (
-                "Do not mention competitors or unauthorized products, and avoid unverified "
+                "Do not mention competitors or unauthorized "
+                "products, and avoid unverified "
                 "claims about results."
             ),
             (
-                "Avoid using unapproved media types, like shaky video, extreme filters, "
+                "Avoid using unapproved media types, "
+                "like shaky video, extreme filters, "
                 "or specific unapproved music."
             ),
             (
                 "Avoid third-party content, copyrighted materials, "
-                "or trademarks not approved by Brand (e.g., #Oscars, song titles, etc.)."
+                "or trademarks not approved by "
+                "Brand (e.g., #Oscars, song titles, etc.)."
             )
         ]
     }
