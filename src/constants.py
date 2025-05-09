@@ -14,7 +14,8 @@ user_input_data = {
         "General": {
             "Description": "",
             "Persona Name": "Emma Jones",
-            "Persona Picture": "https://images.pexels.com/photos/3411134/pexels-photo-3411134.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
+            "Persona Picture": "https://images.pexels.com/photos/3411134/pexels-photo-3411134.jpeg?
+                                auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
         },
         "Locations": {
             "Exclude": ["Buba, Guinea-Bissau", "Patikul, Philippines", "Tirukkattuppalli, India"],
