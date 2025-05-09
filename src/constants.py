@@ -14,18 +14,31 @@ user_input_data = {
         "General": {
             "Description": "",
             "Persona Name": "Emma Jones",
-            "Persona Picture": "https://images.pexels.com/photos/3411134/pexels-photo-3411134.jpeg"
-            "?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
+            "Persona Picture": (
+                "https://images.pexels.com/photos/3411134/pexels-photo-3411134.jpeg"
+                "?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
+            )
         },
         "Locations": {
-            "Exclude": ["Buba, Guinea-Bissau", "Patikul, Philippines", "Tirukkattuppalli, India"],
+            "Exclude": [
+                "Buba, Guinea-Bissau",
+                "Patikul, Philippines",
+                "Tirukkattuppalli, India"
+            ],
             "Include": ["Hradec Kralove, Czechia"]
         },
         "Psychographic Targeting": {
             "Interests": [
-                "Electrical Engineering", "Auto Technology", "Debt Factoring & Invoice Discounting",
-                "Business Utilities", "Physical Therapy", "Jewelry Making", "Shopping",
-                "Rugby League", "Sailing", "Adventure Travel"
+                "Electrical Engineering",
+                "Auto Technology",
+                "Debt Factoring & Invoice Discounting",
+                "Business Utilities",
+                "Physical Therapy",
+                "Jewelry Making",
+                "Shopping",
+                "Rugby League",
+                "Sailing",
+                "Adventure Travel"
             ],
             "Personality Sliders": {
                 "Active-Sedentary": 0.91,
@@ -51,18 +64,47 @@ user_input_data = {
     },
     "brand_guidelines": {
         "do": [
-            "Content should resonate with our target audience, keep tone friendly, informative, and authentic.",
-            "Include key brand messages, values, and approved phrases. Maintain a consistent brand voice.",
-            "Stick to brand colors, logos, and preferred aesthetics (e.g., clean, lifestyle-focused).",
-            "Include specific prompts to encourage engagement (e.g., 'Share your thoughts!' or 'Click the link').",
-            "Tailor content to platform guidelines (length, format) and optimize for each platform."
+            (
+                "Content should resonate with our target audience, keep tone friendly, "
+                "informative, and authentic."
+            ),
+            (
+                "Include key brand messages, values, and approved phrases. Maintain a "
+                "consistent brand voice."
+            ),
+            (
+                "Stick to brand colors, logos, and preferred aesthetics "
+                "(e.g., clean, lifestyle-focused)."
+            ),
+            (
+                "Include specific prompts to encourage engagement "
+                "(e.g., 'Share your thoughts!' or 'Click the link')."
+            ),
+            (
+                "Tailor content to platform guidelines (length, format) "
+                "and optimize for each platform."
+            )
         ],
         "dont": [
-            "Refrain from mentioning controversial or potentially divisive topics (e.g., politics, religion).",
-            "Do not use slang, profanity, or edgy humor that could misrepresent the brand.",
-            "Do not mention competitors or unauthorized products, and avoid unverified claims about results.",
-            "Avoid using unapproved media types, like shaky video, extreme filters, or specific unapproved music.",
-            "Avoid third-party content, copyrighted materials, or trademarks not approved by Brand (e.g., #Oscars, song titles, etc.)."
+            (
+                "Refrain from mentioning controversial or potentially divisive topics "
+                "(e.g., politics, religion)."
+            ),
+            (
+                "Do not use slang, profanity, or edgy humor that could misrepresent the brand."
+            ),
+            (
+                "Do not mention competitors or unauthorized products, and avoid unverified "
+                "claims about results."
+            ),
+            (
+                "Avoid using unapproved media types, like shaky video, extreme filters, "
+                "or specific unapproved music."
+            ),
+            (
+                "Avoid third-party content, copyrighted materials, "
+                "or trademarks not approved by Brand (e.g., #Oscars, song titles, etc.)."
+            )
         ]
     }
 }
